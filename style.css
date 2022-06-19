@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    width:auto;
+    background-image:url(./bg-intro-desktop.png);
+    background-color:rgb(247, 117, 138) ;
+}
+
+.container {
+    width: 50%;
+    height: auto;
+    margin-top: 200px;
+    margin-left: 200px;
+
+
+}
+.first-section {
+    display: flex;
+   
+   
+
+   
+}
+.use{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.left {
+    text-decoration: none;
+    width:450px;
+    height: 300px;
+    margin-top: 40px;
+    /* margin-bottom: 40px; */
+    margin-right: 20px;
+    padding: 10px; 
+}
+
+.left h1{
+    font-size: 40px;
+    font-style: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.left p{
+    padding-top: 20px;
+   
+    color: white;
+}
+.right {
+    margin-top: 100px;
+    margin-right: 80px;
+   
+    /* display: flex; */
+
+}
+
+
+.button {
+  /* display: flex; */
+  width: auto;
+}
+
+
+
+.top{
+    border-bottom: 500px;
+    box-shadow: inset;
+   background-color: rgb(156, 51, 188);
+    width: 500px;
+    margin-right: 20px;
+    /* margin-left: 10px; */
+    height: 50px;
+    border: 1px solid rgb(156, 51, 188);
+    text-decoration: none;
+
+    border-radius: 8px;      
+    color: white;
+    
+}
+
+.details {
+   
+    background-color: white;
+    width: 500px;
+    height: 440px;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: black;
+    
+    text-align: center;
+    
+    border-radius: 8px;
+}
+
+#box{
+    border: 1px solid;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-color: rgb(92, 85, 85);
+    border-radius: 2px;
+    width: 400px;
+    height: 50px;
+   
+}
+
+.bottom {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 8px;
+    border: 1px solid rgb(59, 188, 89);
+    margin-top: 10px;
+    color: white;
+    width: 400px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: green;
+}
+.down p{
+    margin-top: 10px;
+    font-size: small;
+}
+
+.red{
+    color: red;
+
+}
+
+
